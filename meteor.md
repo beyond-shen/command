@@ -5,6 +5,8 @@
 
 
 ## 向meteor服务提交
+```
 $ meteor deploy *.meteor.com
 username: smartx
 password: ********
+```
