@@ -4,15 +4,15 @@
 
 ### 窗口-1
 1. 创建管道文件.
-
- $ mkfifo ps
- 
+```
+$ mkfifo ps
+``` 
 2. 用cat读ps
-
- $ cat ps
- 
+```
+$ cat ps
+``` 
 ### 窗口-2
 1. 向ps写数据
-
- $ cat > ps
- 
+```
+$ cat > ps
+``` 
