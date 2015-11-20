@@ -13,6 +13,12 @@ $ echo "Welcome to kernel" > /dev/hello
 $ sudo rmmod hello
 ```
 
+## 查看设备号
+查看当前系统设备已使用的设备号, 包括字符设备和块设备.
+```
+$ cat /proc/devices
+```
+
 
 ## 管道操作
 
