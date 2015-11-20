@@ -1,4 +1,20 @@
-# 管道操作
+## 读设备文件
+```
+$ sudo insmod hello.ko
+$ cat /dev/hello
+$ sudo rmmod hello
+```
+
+## 写设备文件
+```
+$ sudo insmod hello.ko
+$ sudo chown linux:linux /dev/hello
+$ echo "Welcome to kernel" > /dev/hello
+$ sudo rmmod hello
+```
+
+
+## 管道操作
 
 需要保证在同一个目录下.
 
