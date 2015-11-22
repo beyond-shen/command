@@ -18,7 +18,11 @@ $ sudo rmmod hello
 ```
 $ cat /proc/devices
 ```
-
+## 查看中断
+第一列是中断号, 第二列是接收中断数目的计数器. 第三列是中断的中断控制器.第四列是中断相关的设备名子.
+```
+$ cat /proc/interrupts
+``` 
 
 ## 管道操作
 
