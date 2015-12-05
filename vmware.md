@@ -1,7 +1,8 @@
 # VMWare
 
 ### share
-   1.按照VMtools.
+
+    1.按照VMtools.
     启动Ubuntu系统，在VMware虚拟机界面下，点击VM->Install VMware Tools,点击Ubuntu窗口中主文件按钮然后再左边会看见设备里有VMware tools文件夹，双击之，并且解压其中的压缩文件，把它拷贝到主文件夹。打开Terminal终端，进入解压的文件夹中，输入以下命令：
            a) sudo tar zxf VMwareTools-xxx.tar.gz (注：xxx为版本号)
            b) cd /vmware-tools-distrib
