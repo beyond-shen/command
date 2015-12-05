@@ -9,5 +9,9 @@ $ sudo apt-get install atom
 
 ### Configure 
 
-动感插件:
- `activate-power-mode`
+ * `activate-power-mode` 动感插件 `atl + ctrl + o` :打开插件
+ * `vim-mode` vim模式
+ * `monokai`  高亮显示
+
+ 
+ 
