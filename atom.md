@@ -11,6 +11,7 @@ $ sudo apt-get install atom
 
  * `activate-power-mode` 动感插件 `atl + ctrl + o` :打开插件
  * `vim-mode` vim模式
+ * `ex-mode` 实现`:w`功能
  * `monokai`  高亮显示
 
  
