@@ -15,7 +15,7 @@
   <script>
   var now = new Date();
   var hour = now.getHours();
-  alert("Time: "+hour+");
+  alert("Time: "+hour+);
   </script>
 </head>
 </html>
