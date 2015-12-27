@@ -32,7 +32,55 @@
   2. 多行注释 `/* ... */`
 
 ### 关键字
-1. 
+1. abstract
+2. continue
+3. finally
+4. instanceof
+5. private
+6. this 
+7. boolean
+8. default
+9. float
+10. int
+11. public
+12. throw
+13. break
+14. do
+15. for
+16. interface
+17. return
+18. typeof
+19. byte
+20. double
+21. function
+22. long
+23. short
+24. true
+25. case
+26. else
+27. goto
+28. native
+29. static
+30. var
+31. catch
+32. extends
+33. implements
+34. new
+35. super
+36. void
+37. char
+38. false
+39. import
+40. null
+41. switch
+42. while
+43. class
+44. final
+45. in
+46. package
+47. with
+48. synchronized
+
 
 
 ## node.js
