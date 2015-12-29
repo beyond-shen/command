@@ -23,4 +23,18 @@ $ . ~/.bashrc
 $ sudo install fish
 $ fish
 ```
+### update
+```
+$ sudo apt-get update
+E: The method driver /usr/lib/apt/methods/http could not be found.
+```
+Fixed:
+```bash
+$ sudo apt-get install apt-transport-https
+$ sudo apt-get update
+```
+
+
+
+
 
