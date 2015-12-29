@@ -214,7 +214,70 @@
 
 ### jQuery简介及语法
 
-### 
+### jQuery选择器和事件
+
+### jQuery效果之隐藏与显示、淡入淡出、滑动、回调
+
+### jQuery HTML之捕获、设置、元素添加、元素删除
+
+### jQuery CSS操作及jQuery的盒子模型
+
+### jQuery之元素的遍历与元素的过滤
+
+### jQuery AJAX之异步访问和加载片段
+
+### jQuery的扩展与noConflict
+
+### jQuery瀑布流
+
+### jQuery 菜单
+
+### jQuery 实例：标签切换
+
+### HTML5开发项目实战:侧边栏固定
+
+
+
+
+## jQuery UI基础
+
+### jQuery UI下载与使用
+
+### jQuery UI Interactions
+
+### jQuery UI Widgets(1)
+
+### jQuery UI Widgets(2)
+
+
+##  jQuery Mobile基础
+
+### jQuery Mobile 介绍
+
+### jQuery Mobile Widgets(1)
+
+### jQuery Mobile Widgets(2)
+
+### jQuery Mobile 事件
+
+
+## 移动HTML5开发进阶
+
+### Cordova 入门和基础
+
+### 使用 HTML5 构建应用布局和页面
+
+### HTML5 File API 的应用
+
+### HTML5 File API 的应用进阶
+
+### HTML5 本地存储的应用
+
+### Cordova 常用插件的使用
+
+
+
+## Mongodb
 
 
 
