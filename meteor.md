@@ -17,3 +17,7 @@ $ meteor deploy *.meteor.com
 username: smartx
 password: ********
 ```
+
+
+## 部署服务器
+所有设置都在客户端这边完成, 然后通这命令去运程到服务器上进行自动安装软件和配置环境.
