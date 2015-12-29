@@ -1,4 +1,6 @@
 # kvmla 配置
+web : meteor user
+ritter : build user
 
 ### 创建一个sudo用户
 ```bash
