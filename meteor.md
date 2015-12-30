@@ -24,3 +24,11 @@ $  meteor list-sites
 
 ## 部署服务器
 所有设置都在客户端这边完成, 然后通这命令去运程到服务器上进行自动安装软件和配置环境.
+
+
+## 创建本地包
+```bash
+$ meteor create --package 包名
+$ meteor add 包名
+```
+
