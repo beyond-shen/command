@@ -10,6 +10,13 @@ ritter : build user
 # adduser ritter ssh
 ```
 
+### 重新指定语言
+```bash
+$ sudo apt-get install localepurge
+$ sudo locale-gen en_US.UTF-8 zh_CN.UTF-8
+$ locale    //查看本地语言
+```
+
 ### 自动补齐
 ```bash
 $ sudo apt-get install bash-completion
