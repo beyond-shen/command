@@ -41,6 +41,10 @@ $ sudo apt-get install apt-transport-https
 $ sudo apt-get update
 ```
 
+### 将程序放到后台运行
+```bash
+$ nohup meteor &
+```
 
 
 
