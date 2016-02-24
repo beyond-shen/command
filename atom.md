@@ -7,7 +7,7 @@ $ sudo apt-get update
 $ sudo apt-get install atom
 ```
 
-### Configure 
+### Configure 安装第三方包
 
  * `activate-power-mode` 动感插件 `atl + ctrl + o` :打开插件
  * `vim-mode` vim模式
