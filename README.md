@@ -4,3 +4,4 @@
 * [Atom editor](./atom.md)
 * [VMWare](./vmware.md)
 * [MacOSX常用配置](./mac-osx.md)
+* [Github工作流程](./github.md)
