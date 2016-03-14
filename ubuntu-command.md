@@ -100,3 +100,16 @@ $ sudo vi /etc/rc.local
 
 /usr/local/bin/ssserver –c /etc/shadowsocks.json
 ```
+
+
+# Ubuntu config
+
+## 语言设置
+如果没有设置好语言启动不了`meteor`, 会显示`mongoDB`服务启动失败.
+
+解决方法如下:
+```
+$ apt-get install locales
+$ locale-gen en_US.UTF-8
+$ localedef -i en_GB -f UTF-8 en_US.UTF-8 
+```
