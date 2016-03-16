@@ -13,6 +13,6 @@ $ sudo apt-get install atom
  * `vim-mode` vim模式
  * `ex-mode` 实现`:w`功能
  * `monokai`  高亮显示
-
+ * `atom-ternjs` JavaScript 自动补全
  
  
