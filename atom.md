@@ -7,7 +7,7 @@ $ sudo apt-get update
 $ sudo apt-get install atom
 ```
 
-### Configure 安装第三方包
+### `Configure` 安装第三方包
 
  * `activate-power-mode` 动感插件 `atl + ctrl + o` :打开插件
  * `vim-mode` vim模式
@@ -16,3 +16,17 @@ $ sudo apt-get install atom
  * `atom-ternjs` JavaScript 自动补全
  
  
+
+### 删除`MAC`系统中的`ATOM`
+```
+ $ sudo rm -rf ~/.atom
+ $ sudo rm -rf /usr/local/bin/atom
+ $ sudo rm -rf /usr/local/bin/apm
+ $ sudo rm -rf /Applications/Atom.app
+ $ sudo rm -rf ~/Library/Preferences/com.github.atom.plist
+ $ sudo rm -rf ~/Library/Application Support/com.github.atom.ShipIt
+ $ sudo rm -rf ~/Library/Application Support/Atom
+ $ sudo rm -rf ~/Library/Saved Application State/com.github.atom.savedState
+ $ sudo rm -rf ~/Library/Caches/com.github.atom
+ $ sudo rm -rf ~/Library/Caches/Atom
+```
