@@ -9,11 +9,14 @@ $ sudo apt-get install atom
 
 ### `Configure` 安装第三方包
 
- * `activate-power-mode` 动感插件 `atl + ctrl + o` :打开插件
- * `vim-mode` vim模式
- * `ex-mode` 实现`:w`功能
- * `monokai`  高亮显示
+ * `activate-power-mode`：动感插件 `atl + ctrl + o` :打开插件
+ * `vim-mode`：vim模式
+ * `ex-mode`：实现`:w`功能
+ * `monokai`：高亮显示
  * `atom-ternjs` JavaScript 自动补全
+ * `autoprefixer`：给 CSS 添加适当的前缀
+ * `color-picker`：选颜色
+ * `emmet`：写 HTML 的神器
  
  
 
