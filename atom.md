@@ -20,6 +20,10 @@ $ sudo apt-get install atom
  * `atom-beautify`：美化代码，空格啊什么什么的
  * `autoclose-html`：HTML自动补全
  
+
+### 自动换行
+
+> Preference -> Settings -> 选中Soft Wrap 和 下面的选项.
  
 
 ### 删除`MAC`系统中的`ATOM`
