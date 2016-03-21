@@ -18,6 +18,7 @@ $ sudo apt-get install atom
  * `color-picker`：选颜色
  * `emmet`：写 HTML 的神器
  * `atom-beautify`：美化代码，空格啊什么什么的
+ * `autoclose-html`：HTML自动补全
  
  
 
