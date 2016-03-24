@@ -109,7 +109,7 @@ $ sudo vi /etc/rc.local
 
 解决方法如下:
 ```
-$ apt-get install locales
-$ locale-gen en_US.UTF-8
-$ localedef -i en_GB -f UTF-8 en_US.UTF-8 
+$ sudo apt-get install locales
+$ sudo locale-gen en_US.UTF-8
+$ sudo localedef -i en_GB -f UTF-8 en_US.UTF-8 
 ```
