@@ -49,3 +49,13 @@ set nu
 $ brew install uni2ascii
 $ tree | ascii2uni -a K
 ```
+
+
+## Web server 
+启动mac ox10.11 自带的apache服务.
+
+```
+$ sudo apachectl start
+```
+目录:
+> cd Library/WebServer/Documents/
