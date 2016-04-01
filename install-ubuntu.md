@@ -56,4 +56,9 @@
  $ sudo apt-get update
  $ sudo apt-get upgrade
 ```
+* 安装 git 下载运行需要安装软件的sh
 
+```sh
+ $ sudo apt-get install git
+ $ git clone 
+ ```
