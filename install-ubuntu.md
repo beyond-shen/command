@@ -36,3 +36,24 @@
 ### 安装ubuntu系统
 
 * 重新启动计算机，选择USB盘启动，就可以进行ubuntu的安装.
+
+
+## 配置网卡ip地址
+
+* 图形界面:
+
+
+* 命令方式:
+```bash
+ $ sudo ifconfig eth0 192.168.1.101
+```
+
+
+## 安装必须软件
+
+* 首先更新软件源
+```bash
+ $ sudo apt-get update
+ $ sudo apt-get upgrade
+```
+
