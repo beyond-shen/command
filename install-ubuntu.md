@@ -59,7 +59,7 @@
 ### 安装 git 下载运行需要安装软件的sh
 
 ```sh
- $ sudo apt-get install git
+ $ sudo apt-get install git -y
  $ git clone https://github.com/wangleihd/software.git
  $ cd software
  $ sudo chmod 755 software.sh
