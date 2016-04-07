@@ -81,3 +81,7 @@
 ```sh
  $ sudo dpkg - i atom-amd64.deb
 ```
+### 安装docker
+
+
+```sh
