@@ -74,5 +74,10 @@
 ```
 
 ### 安装atom
-* [atom 官方网站](http://www.atom.io)
 
+访问官方网站下载atom for ubuntu 64位安装软件包.
+
+* [atom 官方网站](http://www.atom.io)
+```sh
+ $ sudo dpkg - i atom-amd64.deb
+```
