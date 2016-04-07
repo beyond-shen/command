@@ -73,3 +73,6 @@
  $ ./install.sh
 ```
 
+### 安装atom
+* [atom 官方网站](http://www.atom.io)
+
