@@ -51,14 +51,19 @@
 
 ## 安装必须软件
 
-* 首先更新软件源
+### 首先更新软件源
 ```bash
  $ sudo apt-get update
  $ sudo apt-get upgrade
 ```
-* 安装 git 下载运行需要安装软件的sh
+### 安装 git 下载运行需要安装软件的sh
 
 ```sh
  $ sudo apt-get install git
- $ git clone 
+ $ git clone https://github.com/wangleihd/software.git
+ $ cd software
+ $ sudo chmod 755 software.sh
+ $ ./software.sh
  ```
+
+### 配置vim
