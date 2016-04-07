@@ -5,4 +5,13 @@
 * [VMWare](./vmware.md)
 * [MacOSX常用配置](./mac-osx.md)
 * [Github工作流程](./github.md)
-* [免费编程电子书资源](./FreeBook.md)
+* [免费编程电子书资源](./FreeBook.md) 
+* 
+
+
+
+# 参考:
+* [电子书参考](https://github.com/vhf/free-programming-books/edit/master/free-programming-books-zh.md)
+
+
+
