@@ -59,7 +59,7 @@
 ### 安装 git 下载运行需要安装软件的sh
 
 ```sh
- $ sudo apt-get install git -y
+ $ sudo apt-get install git-all -y
  $ git clone https://github.com/wangleihd/software.git
  $ cd software
  $ chmod 755 software.sh
@@ -67,3 +67,9 @@
  ```
 
 ### 配置vim
+
+```sh
+ $ chmod 755 install.sh
+ $ ./install.sh
+```
+
