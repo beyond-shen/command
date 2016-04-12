@@ -84,4 +84,23 @@
 ### 安装docker
 
 
-```sh
+```bash
+```
+
+
+## 安装node.js 开发环境
+
+系统为ubuntu14.04 node.js + express + mongodb + redis
+
+### 安装Node.js
+
+安装node.js, npm
+```bash
+ $ sudo apt-get install node npm
+```
+
+### 安装express
+
+### 安装mongodb
+
+### 安装redis
