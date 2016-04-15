@@ -19,6 +19,7 @@ $ sudo apt-get install atom
  * `emmet`：写 HTML 的神器
  * `atom-beautify`：美化代码，空格啊什么什么的
  * `autoclose-html`：HTML自动补全
+ * `react`: React.js(jsx)语言的支持
  
 
 ### 自动换行
