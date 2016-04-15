@@ -20,6 +20,7 @@ $ sudo apt-get install atom
  * `atom-beautify`：美化代码，空格啊什么什么的
  * `autoclose-html`：HTML自动补全
  * `react`: React.js(jsx)语言的支持
+ * `Language Babel`: JavaScript ES201X支持
  
 
 ### 自动换行
