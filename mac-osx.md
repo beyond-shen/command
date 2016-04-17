@@ -59,3 +59,10 @@ $ sudo apachectl start
 ```
 目录:
 > cd Library/WebServer/Documents/
+
+## 关闭自动生成.DS_store 文件
+
+禁止生成的命令：(不知道需不需要加sudo执行)
+```bash
+ $ defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool TRUE
+```
