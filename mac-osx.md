@@ -62,7 +62,13 @@ $ sudo apachectl start
 
 ## 关闭自动生成.DS_store 文件
 
+打开 “终端” ，复制粘贴下面的命令，回车执行，重启Mac即可生效。
 禁止生成的命令：(不知道需不需要加sudo执行)
 ```bash
  $ defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool TRUE
+```
+
+恢复.DS_store生成：
+```bash
+ $ defaults delete com.apple.desktopservices DSDontWriteNetworkStores
 ```
