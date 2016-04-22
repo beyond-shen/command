@@ -1,6 +1,6 @@
 # Atom editor
 
-## 文件切换
+### 文件切换
 `ctrl-shift-s`  保存所有打开的文件  
 `cmd-shift-o`  打开目录  
 `cmd-\`   显示或隐藏目录树  
@@ -10,7 +10,7 @@
 `cmd-b` 在打开的文件之间切换  
 `cmd-shift-b` 只搜索从上次git commit后修改或者新增的文件  
 
-## 导航  
+### 导航  
 （等价于上下左右）  
 `ctrl-p` 前一行  
 `ctrl-n` 后一行  
@@ -30,7 +30,7 @@
 
 `cmd-r` 在方法之间跳转
 
-## 目录树操作  
+### 目录树操作  
 `cmd-\` 或者 `cmd-k cmd-b` 显示(隐藏)目录树  
 `ctrl-0` 焦点切换到目录树(再按一次或者`Esc`退出目录树)  
 `a` 添加文件  
@@ -47,13 +47,13 @@
 `ctrl-shift-C` 复制当前文件绝对路径
 
 
-## 书签
+### 书签
 `cmd-F2` 在本行增加书签  
 `F2` 跳到当前文件的下一条书签  
 `shift-F2` 跳到当前文件的上一条书签  
 `ctrl-F2` 列出当前工程所有书签  
 
-## 选取
+### 选取
 > 大部分和导航一致，只不过加上shift  
 
 `ctrl-shift-P`  选取至上一行  
@@ -70,8 +70,8 @@
 `cmd-L`  选取一行，继续按回选取下一行  
 `ctrl-shift-W`  选取当前单词  
 
-## 编辑和删除文本
-### 基本操作
+### 编辑和删除文本
+#### 基本操作
 `ctrl-T` 使光标前后字符交换  
 `cmd-J` 将下一行与当前行合并  
 `ctrl-cmd-up`, `ctrl-cmd-down` 使当前行向上或者向下移动  
@@ -79,7 +79,7 @@
 `cmd-K`, `cmd-U` 使当前字符大写  
 `cmd-K`, `cmd-L` 使当前字符小写  
 
-### 删除和剪切
+#### 删除和剪切
 `ctrl-shift-K` 删除当前行  
 `cmd-backspace` 删除到当前行开始  
 `cmd-fn-backspace` 删除到当前行结束  
@@ -87,50 +87,50 @@
 `alt-backspace` 或 `alt-H` 删除到当前单词开始  
 `alt-delete` 或 `alt-D` 删除到当前单词结束  
 
-### 多光标和多处选取  
+#### 多光标和多处选取  
 `cmd-click` 增加新光标  
 `cmd-shift-L` 将多行选取改为多行光标  
 `ctrl-shift-up`, `ctrl-shift-down` 增加上（下）一行光标  
 `cmd-D` 选取文档中和当前单词相同的下一处  
 `ctrl-cmd-G` 选取文档中所有和当前光标单词相同的位置  
 
-### 括号跳转  
+#### 括号跳转  
 `ctrl-m` 相应括号之间，html tag之间等跳转  
 `ctrl-cmd-m` 括号(tag)之间文本选取  
 `alt-cmd-.` 关闭当前XML/HTML tag  
 
-### 编码方式  
+#### 编码方式  
 `ctrl-shift-U` 调出切换编码选项  
 
-## 查找和替换  
+### 查找和替换  
 `cmd-F` 在buffer中查找  
 `cmd-shift-f` 在整个工程中查找  
 
-## 代码片段  
+### 代码片段  
 `alt-shift-S` 查看当前可用代码片段  
 > 在`~/.atom`目录下`snippets.cson`文件中存放了你定制的snippets  
 
 [定制说明](https://atom.io/docs/v1.0.0/using-atom-snippets)  
 
-## 自动补全  
+### 自动补全  
 `ctrl-space` 提示补全信息  
 
-## 折叠  
+### 折叠  
 `alt-cmd-[` 折叠  
 `alt-cmd-]` 展开  
 `alt-cmd-shift-{` 折叠全部  
 `alt-cmd-shift-}` 展开全部  
 `cmd-k cmd-N` 指定折叠层级 N为层级数  
 
-## 文件语法高亮  
+### 文件语法高亮  
 `ctrl-shift-L` 选择文本类型  
 
-## 使用Atom进行写作  
+### 使用Atom进行写作  
 `ctrl-shift-M` Markdown预览  
 可用代码片段
 > b, legal, img, l, i, code, t, table
 
-## git操作
+### git操作
 `cmd-alt-Z` checkout HEAD 版本  
 `cmd-shift-B` 弹出untracked 和 modified文件列表  
 `alt-g down` `alt-g up` 在修改处跳转  
@@ -143,7 +143,7 @@
 `alt-G R` 在github打开分支比较  
 `alt-G C` 拷贝当前文件在gihub上的网址  
 
-## 推荐一些好用的插件
+### 推荐一些好用的插件
 - 主题  
 [atom-material-ui](https://atom.io/themes/atom-material-ui) 好看到爆  
 [atom-material-syntax](https://atom.io/themes/atom-material-syntax)
@@ -165,10 +165,6 @@
 - 便捷操作  
 [advanced-open-file](https://atom.io/packages/advanced-open-file) 快速打开、切换文件
 
-就这些了，欢迎pull更多好用的插件！
-
-
-
 
 
 ### Install in ubuntu 
@@ -180,6 +176,8 @@ $ sudo apt-get install atom
 ```
 
 ### `Configure` 安装第三方包
+
+必备常用插件:
 
  * `activate-power-mode`：动感插件 `atl + ctrl + o` :打开插件
  * `vim-mode`：vim模式
@@ -193,7 +191,30 @@ $ sudo apt-get install atom
  * `autoclose-html`：HTML自动补全
  * `react`: React.js(jsx)语言的支持
  * `Language Babel`: JavaScript ES201X支持
+
+优选插件:
  
+- 主题  
+[atom-material-ui](https://atom.io/themes/atom-material-ui) 好看到爆  
+[atom-material-syntax](https://atom.io/themes/atom-material-syntax)
+- 美化  
+[atom-beautify](https://atom.io/packages/atom-beautify) 一键代码美化  
+[file-icons](https://atom.io/packages/file-icons) 给文件加上好看的图标  
+[atom-minimap](https://atom.io/users/atom-minimap) 方便美观的缩略滚动图
+- git  
+[atomatigit](https://atom.io/packages/atomatigit) 可视化git操作  
+- 代码提示  
+[emmet](https://atom.io/packages/emmet) 这个不用介绍了吧  
+[atom-ternjs](https://atom.io/packages/atom-ternjs) js代码提示很强大，高度定制化  
+[docblockr](https://atom.io/packages/docblockr) jsdoc 给js添加注释  
+[autoclose-html](https://atom.io/packages/autoclose-html) 闭合html标签  
+[color-picker](https://atom.io/packages/color-picker) 取色器 必备插件  
+[pigments](https://atom.io/packages/pigments) 颜色显示插件 必装  
+[terminal-panel](https://atom.io/packages/terminal-panel) 直接在atom里面写命令了  
+[svg-preview](https://atom.io/packages/svg-preview) svg预览
+- 便捷操作  
+[advanced-open-file](https://atom.io/packages/advanced-open-file) 快速打开、切换文件
+
 
 ### 自动换行
 
