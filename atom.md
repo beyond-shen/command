@@ -169,6 +169,8 @@ $ sudo apt-get install atom
  * `react`: React.js(jsx)语言的支持
  * `Language Babel`: JavaScript ES201X支持
  * `atom-material-ui`: 风格美化插件
+ * `file-icons`: 增加许多图标,在侧边蓝文件名前面的icon,,很赞
+ * `filetype-color`: 在标签栏不同格式文件显示不同的颜色的标题,支持二度设置
 
 优选插件:
  
