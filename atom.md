@@ -174,16 +174,23 @@ $ sudo apt-get install atom
 
 优选插件:
  
-- 主题  
+#### 主题
+
 [atom-material-ui](https://atom.io/themes/atom-material-ui) 好看到爆  
 [atom-material-syntax](https://atom.io/themes/atom-material-syntax)
-- 美化  
+
+#### 美化  
+
 [atom-beautify](https://atom.io/packages/atom-beautify) 一键代码美化  
 [file-icons](https://atom.io/packages/file-icons) 给文件加上好看的图标  
 [atom-minimap](https://atom.io/users/atom-minimap) 方便美观的缩略滚动图
-- git  
-[atomatigit](https://atom.io/packages/atomatigit) 可视化git操作  
-- 代码提示  
+
+#### git
+
+[atomatigit](https://atom.io/packages/atomatigit) 可视化git操作
+
+#### 代码提示
+
 [emmet](https://atom.io/packages/emmet) 这个不用介绍了吧  
 [atom-ternjs](https://atom.io/packages/atom-ternjs) js代码提示很强大，高度定制化  
 [docblockr](https://atom.io/packages/docblockr) jsdoc 给js添加注释  
@@ -192,9 +199,10 @@ $ sudo apt-get install atom
 [pigments](https://atom.io/packages/pigments) 颜色显示插件 必装  
 [terminal-plus](https://atom.io/packages/terminal-plus) 直接在atom里面写命令了  
 [svg-preview](https://atom.io/packages/svg-preview) svg预览
-- 便捷操作  
-[advanced-open-file](https://atom.io/packages/advanced-open-file) 快速打开、切换文件
 
+#### 便捷操作
+
+[advanced-open-file](https://atom.io/packages/advanced-open-file) 快速打开、切换文件
 
 ### 自动换行
 
