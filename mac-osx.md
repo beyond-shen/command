@@ -36,12 +36,20 @@ alias ll='ls -al'
 ```
 
 ## vim 配色方案
+
+
 ```
+$ vim .vimrc
+---------------
 syntax enable
 set background=light
 set nu
 ```
 
+## install brew
+```
+$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
 
 ## tree命令支持中文
 使用`tree`命令, 需要支持显示中文目录
