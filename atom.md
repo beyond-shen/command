@@ -191,8 +191,26 @@ $ sudo apt-get install atom
 
 #### 代码提示
 
-[emmet](https://atom.io/packages/emmet) 这个不用介绍了吧  
-[atom-ternjs](https://atom.io/packages/atom-ternjs) js代码提示很强大，高度定制化  
+##### [emmet](https://atom.io/packages/emmet) 这个不用介绍了吧. 
+```html
+type this:
+ul>li.item${item $$}*3
+get this:
+<ul>
+ <li class="item1">item 01</li>
+ <li class="item2">item 02</li>
+ <li class="item3">item 03</li>
+</ul>
+```
+
+##### minimap
+代码地图
+
+##### linter
+专门识别多门语言的错误, 但不细致.
+
+
+##### [atom-ternjs](https://atom.io/packages/atom-ternjs) js代码提示很强大，高度定制化  
 [docblockr](https://atom.io/packages/docblockr) jsdoc 给js添加注释  
 [autoclose-html](https://atom.io/packages/autoclose-html) 闭合html标签  
 [color-picker](https://atom.io/packages/color-picker) 取色器 必备插件  
@@ -222,3 +240,23 @@ $ sudo apt-get install atom
  $ sudo rm -rf ~/Library/Caches/com.github.atom
  $ sudo rm -rf ~/Library/Caches/Atom
 ```
+
+
+
+
+### 开环境使用的插件
+
+ * `activate-power-mode`：动感插件 `atl + ctrl + o` :打开插件
+ * `vim-mode`：vim模式
+ * `ex-mode`：实现`:w`功能
+ * `monokai`：高亮显示
+ * `atom-ternjs`：JavaScript 自动补全
+ * `autoprefixer`：给 CSS 添加适当的前缀
+ * `color-picker`：选颜色
+ * `emmet`：写 HTML 的神器
+ * `atom-beautify`：美化代码，空格啊什么什么的
+ * `autoclose-html`：HTML自动补全闭标签
+ * `file-icons`: 增加许多图标,在侧边蓝文件名前面的icon,,很赞
+ * `autocomplete-plus`: 自动补全插件, 有HTML, CSS, python 等
+ * `highlight-selected`: 高亮当前所选的文字, 双击后全文这个词或变量都会变高亮.
+ * `linter`: 检察语法错误, 有less等.
