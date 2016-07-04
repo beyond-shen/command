@@ -261,3 +261,4 @@ get this:
  * `highlight-selected`: 高亮当前所选的文字, 双击后全文这个词或变量都会变高亮.
  * `linter`: 检察语法错误, 有less等.
  * `Nuclide`: facebook 开源的开发IDE.
+ * `Open In Browser`: 右键打开浏览器.
