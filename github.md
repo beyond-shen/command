@@ -136,3 +136,29 @@ git push --force cooloney development
 * 登录自己repo的Github主页
 * 点击pull request
 
+
+
+
+
+## 标准PR流程
+
+以我的账号dev1为例，首先需要在master下Fork到自己账户下
+
+#### 首次运行，只需要运行一次
+```
+git clone https://github.com/dev1/h5.git
+git submodule init
+git remote add upstream https://github.com/master/h5.git
+git checkout -b dev upstream/dev
+```
+#### 每次都需要运行
+```
+git submodule update
+git fetch upstream
+git reset --hard upstream/dev
+```
+#### ... work
+```
+git rebase upstream/dev
+git push -f origin master
+```
