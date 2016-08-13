@@ -32,3 +32,38 @@ $ meteor create --package 包名
 $ meteor add 包名
 ```
 
+### 部署自己服务器上.
+```bash
+// ubuntu 64bit v14.04 LTS, 记得 update
+
+$ npm -g install git+https://github.com/RockaLabs/meteor-up.git#muprockanew
+
+$ muprockanew setup --config mupx.json
+
+$ muprockanew deploy --config mupx.json
+```
+
+附上配置文件`mupx.json`
+```text
+{
+  "servers": [
+    {
+      "host": "server_ip",
+      "username": "root",
+      //"pem": "~/.ssh/id_rsa",
+    "password": "root user passwd"
+    }
+  ],
+
+  "setupMongo": true,
+  "appName": "mobileweb",
+  "app": "~/mobile-web",          //网站文件存放的目录
+  "env": {
+    "PORT": 80,
+    "ROOT_URL": "http://demo.plw.io"
+  },
+
+  "deployCheckWaitTime": 60,
+  "enableUploadProgressBar": true
+}
+```
