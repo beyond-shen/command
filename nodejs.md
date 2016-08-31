@@ -1,5 +1,19 @@
 # nodejs安装
 
+
+## ubuntu install 
+安装nodejs的方法.
+
+```bash
+ $ curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash - sudo apt-get install -y nodejs
+```
+
+开发环境的安装:
+```bash
+ $ sudo apt-get install -y build-essential
+```
+
+
 ### node.js升级
 
 
