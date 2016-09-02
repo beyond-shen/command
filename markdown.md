@@ -239,7 +239,18 @@ int main(void){
 ```
 
 
+## 支持Emoji表情
+```
+@octocat :+1: This PR looks great - it's ready to merge! :shipit:
+```
 
+效果:
+
+@octocat :+1: This PR looks great - it's ready to merge! :shipit:
+
+
+
+* [Emoji表情](http://www.webpagefx.com/tools/emoji-cheat-sheet/)
 
 
 
