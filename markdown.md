@@ -156,6 +156,63 @@ _You **can** combine them_
 > 区块引用  
 >> 嵌套引用 
 
+## 链接
+
+```
+[github](http://github.com)
+```
+
+效果:
+
+[github](http://github.com)
+
+## 图片
+
+```
+If you want to embed images, this is how you do it:
+
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+```
+
+效果:
+
+If you want to embed images, this is how you do it:
+
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+
+
+## 整体样式
+
+```
+# Structured documents
+
+Sometimes it's useful to have different levels of headings to structure your documents. Start lines with a `#` to create headings. Multiple `##` in a row denote smaller heading sizes.
+
+### This is a third-tier heading
+
+You can use one `#` all the way up to `######` six for different heading sizes.
+
+If you'd like to quote someone, use the > character before the line:
+
+> Coffee. The finest organic suspension ever devised... I beat the Borg with it.
+> - Captain Janeway
+```
+
+效果:
+
+# Structured documents
+
+Sometimes it's useful to have different levels of headings to structure your documents. Start lines with a `#` to create headings. Multiple `##` in a row denote smaller heading sizes.
+
+### This is a third-tier heading
+
+You can use one `#` all the way up to `######` six for different heading sizes.
+
+If you'd like to quote someone, use the > character before the line:
+
+> Coffee. The finest organic suspension ever devised... I beat the Borg with it.
+> - Captain Janeway
+
 
 
 
