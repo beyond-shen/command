@@ -65,7 +65,30 @@ int main(void){
 }
 ```
 
+### 文字修饰符.
+看一下粗体字, 斜体字的标记.
 
+```
+*This text will be italic*
+_This will also be italic_
+
+**This text will be bold**
+__This will also be bold__
+
+_You **can** combine them_
+```
+
+效果:
+
+*This text will be italic*
+
+_This will also be italic_
+
+**This text will be bold**
+
+__This will also be bold__
+
+_You **can** combine them_
 
 
 
