@@ -27,6 +27,41 @@ Markdown 标记转成HTML的样式每个网站有自己的风格, 但整体的�
 > ##### 五级标题   
 > ###### 六级标题 
 
+### 文字修饰符.
+看一下粗体字, 斜体字的标记.
+
+```
+*This text will be italic*
+_This will also be italic_
+
+**This text will be bold**
+__This will also be bold__
+
+~~This text will be delete~~
+_You **can** combine them_
+```
+
+效果:
+
+*This text will be italic*
+
+_This will also be italic_
+
+**This text will be bold**
+
+__This will also be bold__
+
+~~This text will be delete~~
+
+_You **can** combine them_
+
+
+
+### 列表
+
+
+
+
 
 ### 段落
 段落的前后要有空行，所谓的空行是指没有文字内容。若想在段内强制换行的方式是使用**两个以上**空格加上回车（引用中换行省略回车）。
@@ -65,31 +100,6 @@ int main(void){
 }
 ```
 
-### 文字修饰符.
-看一下粗体字, 斜体字的标记.
-
-```
-*This text will be italic*
-_This will also be italic_
-
-**This text will be bold**
-__This will also be bold__
-
-_You **can** combine them_
-```
-
-效果:
-
-*This text will be italic*
-
-_This will also be italic_
-
-**This text will be bold**
-
-__This will also be bold__
-
-_You **can** combine them_
-
 
 
 
@@ -99,4 +109,5 @@ _You **can** combine them_
 
 ## 参考文档
 * [维基百科，自由的百科全书 - Markdown](https://zh.wikipedia.org/wiki/Markdown)
-*
+* [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+* [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
