@@ -9,7 +9,7 @@ Markdown 是一种轻量级标记语言，创始人为約翰·格魯伯（John G
 Markdown 标记转成HTML的样式每个网站有自己的风格, 但整体的标记格式是统一的. 我们以github来保存相关的文档, 所以我们以github的为样式为标准.
 
 
-### 标题
+## 标题
 
 使用`#`，可表示1-6级标题。
 > \# 一级标题   
@@ -27,7 +27,7 @@ Markdown 标记转成HTML的样式每个网站有自己的风格, 但整体的�
 > ##### 五级标题   
 > ###### 六级标题 
 
-### 文字修饰符.
+## 文字修饰符
 看一下粗体字, 斜体字的标记.
 
 ```
@@ -57,8 +57,9 @@ _You **can** combine them_
 
 
 
-### 列表
-####无序列表
+## 列表
+###无序列表
+主要使用`-`和`*`来标记无序列表
 
 ```
 - George Washington
@@ -74,16 +75,79 @@ _You **can** combine them_
 
 
 
-#### 有序列表
+### 有序列表
+
+```
+1. James Madison
+2. James Monroe
+3. John Quincy Adams
+```
+
+效果:
+
+1. James Madison
+2. James Monroe
+3. John Quincy Adams
+
+```
+1. James Madison
+1. James Monroe
+1. John Quincy Adams
+```
+
+效果:
+
+1. James Madison
+1. James Monroe
+1. John Quincy Adams
+
+
+```
+1. Make my changes
+  1. Fix bug
+  2. Improve formatting
+    * Make the headings bigger
+2. Push my commits to GitHub
+3. Open a pull request
+  * Describe my changes
+  * Mention all the members of my team
+    * Ask for feedback
+```
+
+效果:
+
+1. Make my changes
+  1. Fix bug
+  2. Improve formatting
+    * Make the headings bigger
+2. Push my commits to GitHub
+3. Open a pull request
+  * Describe my changes
+  * Mention all the members of my team
+    * Ask for feedback
 
 
 
+### 任务列表
+
+```
+- [x] Finish my changes
+- [ ] Push my commits to GitHub
+- [ ] Open a pull request
+```
+
+效果:
+
+- [x] Finish my changes
+- [ ] Push my commits to GitHub
+- [ ] Open a pull request
 
 
-### 段落
+
+## 段落
 段落的前后要有空行，所谓的空行是指没有文字内容。若想在段内强制换行的方式是使用**两个以上**空格加上回车（引用中换行省略回车）。
 
-#### 区块引用
+### 区块引用
 在段落的每行或者只在第一行使用符号`>`,还可使用多个嵌套引用，如：
 > \> 区块引用  
 > \>> 嵌套引用  
@@ -96,7 +160,7 @@ _You **can** combine them_
 
 
 
-### 代码块
+## 代码块
 
 \`\`\`c    
 \#include <stdio.h>    
@@ -124,7 +188,7 @@ int main(void){
 
 
 
-## 参考文档
+# 参考文档
 * [维基百科，自由的百科全书 - Markdown](https://zh.wikipedia.org/wiki/Markdown)
 * [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 * [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
