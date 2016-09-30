@@ -30,12 +30,34 @@ $ sudo npm install hexo-cli -g
 
 可以通过浏览器访问网址.
 
+## 修改配置文件
+
+```sh
+$ vim _config.yml  (在最后一行增加）
+----
+deploy:
+    type: git
+    repo: https://github.com/github-name/github-name.github.io.git
+    branch: master
+```
+
 
 ## 网站进行布置
+
+部署前需要生成网站， 每次修改后都需要重新生成网站。
 
 ```sh
 $ hexo g
 $ hexo d
+```
+
+## 常见问题
+1.  ERROR Deployer not found: git
+
+需要安装部署时使用的git包。
+
+```sh
+$ npm install hexo-deployer-git --save
 ```
 
 ## 参考
