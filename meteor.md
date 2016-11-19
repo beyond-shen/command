@@ -67,3 +67,57 @@ $ muprockanew deploy --config mupx.json
   "enableUploadProgressBar": true
 }
 ```
+
+## pem的配置
+### 生成密 pem
+客户端（本地主机 ）生成验证没有密码密钥对
+
+```sh
+$ ssh-keygen -t rsa -b 2048 -v
+```
+
+执行上述命令首先会让你输入生成密钥的文件名：我这里输入的 `mykey` ，之后一路回车。
+
+```
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/anonymouse/.ssh/id_rsa): mykey
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in mykey.
+Your public key has been saved in mykey.pub.
+The key fingerprint is:
+bb:c6:9c:ee:6b:c0:67:58:b2:bb:4b:44:72:d3:cc:a5 localhost@localhost
+The key's randomart image is:
++---[RSA 2048]----+
+|++o +    OO0     |
+|ooo+ O   yt      |
+|EB+ =.+  o       |
+|+=ooo.o.. +      |
+|. o..+ oS. .     |
+|.  .o  . ..      |
+|.  oo o o  .     |
+| . .== .... .    |
+|  ...+o... .     |
++----[SHA256]-----+
+```
+在执行命令的当前目录下会生成一个 `mykey.pub`、`mykey` 两个文件。并将这两个文件移到 `~/.ssh` 目录下.
+```sh
+$ mv mykey* ~/.ssh
+```
+
+### 将公匙推放到服务器上
+把生成的 `mykey.pub` 通过本地命令推送到服务器端，使服务器自动添加认证这个证书.
+```sh
+$ ssh-copy-id -i ~/.ssh/mykey.pub root@12.34.56.78
+```
+
+测试连接:
+使用`pem`连拉服务器, 如果设置成功, 不需要输入密码, 就果以进入到服务器上.
+```sh
+ssh -i ~/.ssh/mykey root@12.34.56.78
+```
+
+
+
+
+
