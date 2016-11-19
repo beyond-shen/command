@@ -117,6 +117,22 @@ $ ssh-copy-id -i ~/.ssh/mykey.pub root@12.34.56.78
 ssh -i ~/.ssh/mykey root@12.34.56.78
 ```
 
+# 部署服务器的配置
+-----------------
+
+## 安装软件
+系统使用: ubuntu14.04 aliyun
+
+```sh
+$ sudo apt-get update
+$ sudo apt-get upgrade
+$ sudo apt-get install docker.io
+```
+
+
+
+
+
 
 
 
