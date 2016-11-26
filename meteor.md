@@ -123,12 +123,10 @@ ssh -i ~/.ssh/mykey root@12.34.56.78
 ## 安装软件
 系统使用: ubuntu14.04 aliyun
 
-```sh
-$ sudo apt-get update
-$ sudo apt-get upgrade
-$ sudo apt-get install docker.io
-```
+### 安装docker
 
+
+* [Docker 官方基于ubuntu安装](https://docs.docker.com/engine/installation/linux/ubuntulinux/)
 
 
 
