@@ -73,7 +73,7 @@ $ muprockanew deploy --config mupx.json
 客户端（本地主机 ）生成验证没有密码密钥对
 
 ```sh
-$ ssh-keygen -t rsa -b 2048 -v
+ $ ssh-keygen -t rsa -b 2048 -v
 ```
 
 执行上述命令首先会让你输入生成密钥的文件名：我这里输入的 `mykey` ，之后一路回车。
@@ -102,19 +102,19 @@ The key's randomart image is:
 ```
 在执行命令的当前目录下会生成一个 `mykey.pub`、`mykey` 两个文件。并将这两个文件移到 `~/.ssh` 目录下.
 ```sh
-$ mv mykey* ~/.ssh
+ $ mv mykey* ~/.ssh
 ```
 
 ### 将公匙推放到服务器上
 把生成的 `mykey.pub` 通过本地命令推送到服务器端，使服务器自动添加认证这个证书.
 ```sh
-$ ssh-copy-id -i ~/.ssh/mykey.pub root@12.34.56.78
+ $ ssh-copy-id -i ~/.ssh/mykey.pub root@12.34.56.78
 ```
 
 测试连接:
 使用`pem`连拉服务器, 如果设置成功, 不需要输入密码, 就果以进入到服务器上.
 ```sh
-ssh -i ~/.ssh/mykey root@12.34.56.78
+ $ ssh -i ~/.ssh/mykey root@12.34.56.78
 ```
 
 # 部署服务器的配置
@@ -134,12 +134,12 @@ ssh -i ~/.ssh/mykey root@12.34.56.78
 
 ## 安装 mup
 ```sh
-$ sudo npm install mup -g -f
+ $ sudo npm install mup -g -f
 ```
 
 初始化配置文件:
 ```sh
-$ mup init
+ $ mup init
 ```
 
 配置文件如下: mup.json
@@ -184,5 +184,13 @@ module.exports = {
 ```
 
 
+### 配置命令
+```sh
+ $ mup setup
+```
 
+### 部署
+```sh
+ $ mup deploy
+```
 
