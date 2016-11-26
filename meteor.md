@@ -132,6 +132,57 @@ ssh -i ~/.ssh/mykey root@12.34.56.78
 
 
 
+## 安装 mup
+```sh
+$ sudo npm install mup -g -f
+```
+
+初始化配置文件:
+```sh
+$ mup init
+```
+
+配置文件如下: mup.json
+```
+module.exports = {
+  servers: {
+    one: {
+      host: '120.77.44.150',
+      username: 'root',
+      // password:
+      // or leave blank for authenticate from ssh-agent
+    }
+  },
+
+  meteor: {
+    name: 'zhangbowen',
+    path: '../todo-react',
+    servers: {
+      one: {}
+    },
+    buildOptions: {
+      serverOnly: true,
+    },
+    env: {
+      PORT: ****,
+      ROOT_URL: 'http://app.com',
+      MONGO_URL: 'mongodb://localhost/meteor'
+    },
+
+    dockerImage: 'abernix/meteord:base',
+
+    deployCheckWaitTime: 60
+  },
+  mongo: { // (optional)
+    oplog: true,
+    port: 27017,
+    servers: {
+      one: {},
+    },
+  },
+};
+```
+
 
 
 
