@@ -88,6 +88,15 @@
 ```
 
 
+## install teamview
+
+```bash
+$ sudo dpkg --add-architecture i386
+$ sudo apt-get update
+$ sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386
+```
+
+
 ## 安装node.js 开发环境
 
 系统为ubuntu14.04 node.js + express + mongodb + redis
